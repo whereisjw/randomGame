@@ -6,6 +6,6 @@ document.querySelector(".main-form").addEventListener("submit", (e) => {
   let result = userChose == ranNum ? "You WIn" : "You Lost";
   document.querySelector(
     ".result"
-  ).innerHTML = `  <li>유저선택 : ${userChose}, 머신선택 : ${ranNum}</li>
+  ).innerHTML = `  <li>you Chose : ${userChose}, the machine chose : ${ranNum}</li>
   <li>${result}</li>`;
 });
